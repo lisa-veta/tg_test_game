@@ -1,5 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import "./styles/reset.css";
 import App from './App.js';
 import { miniApp, mockTelegramEnv, parseInitData } from '@telegram-apps/sdk';
 
